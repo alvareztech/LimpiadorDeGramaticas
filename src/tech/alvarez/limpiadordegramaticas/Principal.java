@@ -1,10 +1,8 @@
-package com.danyalvarez.limpiadordegramaticas;
+package tech.alvarez.limpiadordegramaticas;
 
-public class Principal
-{
-	public static void main(String[] a3d)
-	{
-		Gramatica G = new Gramatica();
+public class Principal {
+    public static void main(String[] args) {
+        Gramatica G = new Gramatica();
 
         G.adicionarProduccion(new Produccion('S', "S"));
 //        G.adicionarProduccion(new Produccion('X', "AB"));
@@ -26,8 +24,8 @@ public class Principal
 //        G.adicionarProduccion(new Produccion('X', "a"));
 //        G.adicionarProduccion(new Produccion('A', "a"));
 
-		G.limpiar();
+        G.limpiar();
 
         G.mostrar();
-	}
+    }
 }

@@ -1,10 +1,4 @@
-package com.danyalvarez.limpiadordegramaticas;
-
-/**
- * Limpiador de Grámaticas
- *
- * @author Daniel Alvarez
- */
+package tech.alvarez.limpiadordegramaticas;
 
 public class Main {
     public static void main(String[] a3d) {

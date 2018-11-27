@@ -1,27 +1,32 @@
-package com.danyalvarez.limpiadordegramaticas;
+package tech.alvarez.limpiadordegramaticas;
 
-// Un alfabeto es un conjunto finito, no vac�o, de s�mbolos indivisibles u objetos at�micos.
+/**
+ * Un alfabeto es un conjunto finito, no vacío, de símbolos indivisibles u objetos atómicos.
+ */
 
 public class Alfabeto {
-    private int t;        // tipo 1: Mayusculas, tipo 2: minusculas, tipo 3: mixto
+    /**
+     * tipo 1: Mayúsculas, tipo 2: minúsculas, tipo 3: mixto
+     */
+    private int tipo;
     private int n;
     private char[] C;
 
     public Alfabeto(int tipo) {
         n = 0;
         C = new char[99];
-        t = tipo;
+        this.tipo = tipo;
     }
 
     public void adicionar(String a) {
         for (int i = 0; i < a.length(); i++) {
-            if (t == 1)
+            if (tipo == 1)
                 if (esMayuscula(a.charAt(i)))
                     adicionar(a.charAt(i));
-            if (t == 2)
+            if (tipo == 2)
                 if (esMinuscula(a.charAt(i)))
                     adicionar(a.charAt(i));
-            if (t == 3)
+            if (tipo == 3)
                 adicionar(a.charAt(i));
         }
     }
@@ -87,7 +92,7 @@ public class Alfabeto {
     }
 
     public Alfabeto union(Alfabeto B) {
-        Alfabeto U = new Alfabeto(t);
+        Alfabeto U = new Alfabeto(tipo);
         for (int i = 0; i < n; i++)
             U.adicionar(C[i]);
         for (int i = 0; i < B.n; i++)
@@ -96,7 +101,7 @@ public class Alfabeto {
     }
 
     public Alfabeto interseccion(Alfabeto B) {
-        Alfabeto I = new Alfabeto(t);
+        Alfabeto I = new Alfabeto(tipo);
         for (int i = 0; i < n; i++)
             for (int j = 0; j < B.n; j++)
                 if (C[i] == B.C[j]) {

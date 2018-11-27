@@ -1,12 +1,6 @@
-package com.danyalvarez.limpiadordegramaticas;
+package tech.alvarez.limpiadordegramaticas;
 
 import java.util.Stack;
-
-/**
- * Limpiador de Gramáticas
- *
- * @author Daniel Alvarez
- */
 
 public class ConjuntoProducciones {
     protected int n;

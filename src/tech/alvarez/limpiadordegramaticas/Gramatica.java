@@ -1,10 +1,4 @@
-package com.danyalvarez.limpiadordegramaticas;
-
-/**
- * Limpiador de Gramáticas
- *
- * @author Daniel Alvarez
- */
+package tech.alvarez.limpiadordegramaticas;
 
 public class Gramatica {
     private Alfabeto N;
