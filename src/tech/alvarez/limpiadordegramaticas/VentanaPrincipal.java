@@ -50,7 +50,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Limpiador de Grámaticas v.1  |  Daniel Alvarez");
@@ -252,7 +251,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel2.setText("Daniel Alvarez");
 
         jLabel3.setFont(new java.awt.Font("Consolas", 0, 14)); // NOI18N
-        jLabel3.setText("www.danyalvarez.com");
+        jLabel3.setText("alvarez.tech");
 
         jLabel4.setText("POR:");
 
@@ -273,12 +272,12 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel9.setText("Los Algoritmos utilizados para la limpieza de grámaticas fueron");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 2, 12)); // NOI18N
-        jLabel10.setText("extraidos del libro de \"LENGUAJES FORMALES\" de Lic. Lucio Torrico.");
+        jLabel10.setText("extraídos del libro de \"LENGUAJES FORMALES\" de Lucio Torrico.");
 
-        jLabel11.setText("Diciembre de 2009");
+        jLabel11.setText("Diciembre 2009");
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 2, 12)); // NOI18N
-        jLabel12.setText("Programa escrito totalmente en Java.");
+        jLabel12.setText("Programa escrito en Java.");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -337,9 +336,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                                 .addContainerGap(105, Short.MAX_VALUE))
         );
 
-        jLabel13.setFont(new java.awt.Font("Monotype Corsiva", 0, 14)); // NOI18N
-        jLabel13.setText("\"Estamos vivos solo para ser felices\"");
-
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -366,7 +362,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                                 .addGap(228, 228, 228))
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                                 .addContainerGap(213, Short.MAX_VALUE)
-                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(197, 197, 197))
         );
         jPanel3Layout.setVerticalGroup(
@@ -383,7 +378,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel13)
                                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
@@ -496,7 +490,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
